@@ -1,0 +1,31 @@
+.navbaar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 65rem; */
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 180px;
+}
+
+@media screen and (max-width: 340px) {
+    .navbaar{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
